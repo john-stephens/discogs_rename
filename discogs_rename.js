@@ -9,7 +9,8 @@ const fs = require('fs/promises');
 const AGENT=`DiscogsRename/${version}`;
 const DISCOGS_HOST='discogs.com';
 const RELEASE_PATH_REGEX=/\/release\/(?<releaseId>[0-9]+)$/;
-const POSITION_REGEX=/^(?<disc>[0-9]+(-))?(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+)?$/;
+const POSITION_MULTI_REGEX=/^(?<disc>[0-9]+[-\.])?(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+)?$/;
+const POSITION_SINGLE_REGEX=/^(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+)?$/;
 const FILE_PATH_REGEX=/^(?<path>.*\/)?(?<name>.*)(?<extension>\..*$)/;
 
 // Parse the command line arguments
@@ -39,6 +40,10 @@ const argv = yargs
         description: 'Show all output like normal, but don\'t actually rename files',
         type: 'boolean'
     })
+    .option('debug', {
+        description: 'Output debug-level details',
+        type: 'boolean'
+    })
     .help()
     .argv;
 
@@ -46,6 +51,10 @@ const argv = yargs
  * Main program logic.
  */
 async function main() {
+    if(argv.debug) {
+        console.log(argv);
+    }
+
     // Parse the release id from the supplied URL
     const releaseId = getReleaseIdFromUrl(argv.url);
 
@@ -60,6 +69,10 @@ async function main() {
     // Parse the release data
     const release = parseRelease(releaseData);
 
+    if(argv.debug) {
+        console.dir(release, {depth: null});
+    }
+
     // Check to see if we require a disc number
     if(isReleaseMultiDisc(release) && argv.disc === undefined) {
         console.log('Discogs release constains multiple discs, please specify using --disc');
@@ -68,6 +81,10 @@ async function main() {
 
     // Get the tracks from the release
     const tracks = getTracksFromRelease(release, argv.disc);
+
+    if(argv.debug) {
+        console.dir(tracks, {depth: null});
+    }
 
     // Make sure that the number of tracks matches the files supplied
     if(!argv.ignoreCount && tracks.length != argv.file.length) {
@@ -79,6 +96,10 @@ async function main() {
     // Get the formatted track names
     const artist = getReleaseArtist(release);
     const formattedTracks = getFormattedTracks(artist, tracks, argv.mix);
+
+    if(argv.debug) {
+        console.log(formattedTracks);
+    }
 
     // Rename the files
     renameFiles(argv.file, formattedTracks, argv.dryrun);
@@ -144,9 +165,11 @@ function getDiscogsRelease(releaseId) {
  * @returns {object} The parsed release data
  */
 function parseRelease(releaseData) {
+    const multiDisc = isReleaseMultiDisc(releaseData);
+
     return {
         ...releaseData,
-        tracklist: parseTracklist(releaseData.tracklist),
+        tracklist: parseTracklist(releaseData.tracklist, multiDisc),
     };
 }
 
@@ -156,14 +179,15 @@ function parseRelease(releaseData) {
  * This parses the track position and title for each track into smaller pieces.
  *
  * @param {array} tracklist - The release track list data to parse
+ * @param {boolean} multiDisc - Whether or not the release is multi-disc
  * @returns {object[]} The parsed release track list data
  */
-function parseTracklist(tracklist) {
+function parseTracklist(tracklist, multiDisc) {
     return tracklist.map(track => {
         // Parse the track position and title
         return {
             ...track,
-            position: parseTrackPosition(track.position),
+            position: parseTrackPosition(track.position, multiDisc),
             title: parseTrackTitle(track.title)
         };
     });
@@ -176,10 +200,15 @@ function parseTracklist(tracklist) {
  * "side", "track", and "part" components.
  *
  * @param {string} position - The release track position
+ * @param {boolean} multiDisc - Whether or not the release is multi-disc
  * @returns {(object|undefined)} The parsed release track position
  */
-function parseTrackPosition(position) {
-    const match = position.match(POSITION_REGEX);
+function parseTrackPosition(position, multiDisc) {
+    // Test cases:
+    // - Multi disc, decimal disc split: https://www.discogs.com/John-B-Redox-Catalyst-Reprocessed/release/9935899
+    // - Single disc, decimal part split: https://www.discogs.com/Paul-Oakenfold-Tranceport/release/3428
+    const regex = (multiDisc ? POSITION_MULTI_REGEX : POSITION_SINGLE_REGEX);
+    const match = position.match(regex);
 
     if(!match) {
         return;
