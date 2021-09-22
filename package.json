@@ -2,6 +2,11 @@
   "name": "Discogs Rename",
   "version": "0.0.1",
   "author": "John Stephens <john.w.stephens@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/john-stephens/discogs_rename"
+  },
   "dependencies": {
     "disconnect": "^1.2.2",
     "replace-special-characters": "^1.2.5",
