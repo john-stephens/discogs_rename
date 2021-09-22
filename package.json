@@ -1,0 +1,12 @@
+{
+  "name": "Discogs Rename",
+  "version": "0.0.1",
+  "author": "John Stephens <john.w.stephens@gmail.com>",
+  "dependencies": {
+    "disconnect": "^1.2.2",
+    "replace-special-characters": "^1.2.5",
+    "title": "^3.4.3",
+    "url-parse": "^1.5.3",
+    "yargs": "^17.1.1"
+  }
+}

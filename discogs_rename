@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# https://unix.stackexchange.com/questions/17499/get-path-of-current-script-when-executed-through-a-symlink
+DIR="$(dirname "$(readlink -f "$0")")"
+
+# Make sure that "node" and "npm" are available
+NPM_PATH=`which npm`
+NODE_PATH=`which node`
+
+if [ -z "$NPM_PATH" ]; then
+    echo "\"npm\" not found. Please make sure that Node is installed."
+    exit
+fi
+
+if [ -z "$NODE_PATH" ]; then
+   echo "\"node\" not found. Please make sure that Node is installed."
+   exit
+fi
+
+# Make sure that the node modules are installed
+if [ ! -d "$DIR/node_modules" ]; then
+    cd $DIR
+    npm install
+    cd -
+fi
+
+# Run the script, passing all arguments
+node $DIR/discogs_rename.js $@
