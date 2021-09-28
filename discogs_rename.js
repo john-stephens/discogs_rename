@@ -24,6 +24,12 @@ for(let x = 0; x < alwaysLowercaseWords.length; x++) {
     }
 }
 
+// Add missing lower-case words
+alwaysLowercaseWords.push('in');
+alwaysLowercaseWords.push('by');
+alwaysLowercaseWords.push('off');
+alwaysLowercaseWords.push('out');
+
 // Lower-case common joining words
 alwaysLowercaseWords.push('pres');
 alwaysLowercaseWords.push('vs');
@@ -361,8 +367,7 @@ function isTrack(track) {
 function isTrackFromDisc(track, disc=undefined) {
     const {position} = track;
 
-    // Note: For multi-part tracks, this only matches the first part
-    return (position.disc == disc);
+    return (position.disc == disc && position.track !== undefined && position.track !== '');
 }
 
 /**
@@ -540,10 +545,10 @@ function formatName(name) {
     return toTitleCase(replaceSpecialCharacters(name))
         .replace(/ [&\+] /g,' and ')
         .replace(/[&\+]/g,' and ')
-        .replace(/-/g, ' ')
         .replace(/ A /g, ' a ')
         .replace(/([0-9]+)\"/, '$1in')
-        .replace(/[^0-9A-Za-z ]/g, '')
+        .replace(/[\'\.]/g, '')
+        .replace(/[^0-9A-Za-z ]/g, ' ')
         .replace(/\s+/g, ' ')
         .replace(/\s+$/, '')
         .replace(/^\s+/, '')
