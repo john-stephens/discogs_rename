@@ -3,15 +3,31 @@ const {version} = require('./package.json');
 const yargs = require('yargs');
 const urlparse = require('url-parse');
 const replaceSpecialCharacters = require('replace-special-characters');
-const capitalizeTitle = require('title');
+const {toTitleCase, alwaysLowercaseWords} = require('@artsy/to-title-case');
+const {deromanize} = require('romans');
 const fs = require('fs/promises');
 
 const AGENT=`DiscogsRename/${version}`;
 const DISCOGS_HOST='discogs.com';
 const RELEASE_PATH_REGEX=/\/release\/(?<releaseId>[0-9]+)$/;
-const POSITION_MULTI_REGEX=/^(?<disc>[0-9]+[-\.])?(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+)?$/;
-const POSITION_SINGLE_REGEX=/^(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+)?$/;
+const POSITION_MULTI_REGEX=/^(?<disc>[0-9]+[-\.])?(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+|[a-z]+)?$/;
+const POSITION_SINGLE_REGEX=/^(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+|[a-z]+)?$/;
 const FILE_PATH_REGEX=/^(?<path>.*\/)?(?<name>.*)(?<extension>\..*$)/;
+
+// Don't allow words 4-letters or more to be capitalized (APA style)
+for(let x = 0; x < alwaysLowercaseWords.length; x++) {
+    const word = alwaysLowercaseWords[x];
+
+    if(word.length >= 4) {
+        alwaysLowercaseWords.splice(x, 1);
+        x--;
+    }
+}
+
+// Lower-case common joining words
+alwaysLowercaseWords.push('pres');
+alwaysLowercaseWords.push('vs');
+alwaysLowercaseWords.push('feat');
 
 // Parse the command line arguments
 const argv = yargs
@@ -65,6 +81,10 @@ async function main() {
 
     // Look up the Discogs release
     const releaseData = await getDiscogsRelease(releaseId);
+
+    if(argv.debug) {
+        console.dir(releaseData, {depth: null});
+    }
 
     // Parse the release data
     const release = parseRelease(releaseData);
@@ -183,7 +203,9 @@ function parseRelease(releaseData) {
  * @returns {object[]} The parsed release track list data
  */
 function parseTracklist(tracklist, multiDisc) {
-    return tracklist.map(track => {
+    const flatTracklist = flattenTracklist(tracklist);
+
+    return flatTracklist.map(track => {
         // Parse the track position and title
         return {
             ...track,
@@ -194,6 +216,39 @@ function parseTracklist(tracklist, multiDisc) {
 }
 
 /**
+ * Flatten tracklist entries that have sub-tracks, taking the title from
+ * the main track entry.
+ *
+ * @param {array} tracklist - The release track list data to parse
+ * @returns {object} The flattened tracklist
+ */
+function flattenTracklist(tracklist) {
+    // Test cases:
+    // https://www.discogs.com/Orbital-The-Box/release/870
+    // https://www.discogs.com/BT-%E4%BB%8A-Ima/release/23064
+    const ret = [];
+
+    for(let x = 0; x < tracklist.length; x++) {
+        const track = tracklist[x];
+
+        if(track.type_ === 'index' && track.sub_tracks && track.sub_tracks.length > 0) {
+            const subtracks = flattenTracklist(track.sub_tracks);
+
+            for(let y = 0; y < subtracks.length; y++) {
+                ret.push({
+                    ...subtracks[y],
+                    title: track.title
+                });
+            }
+        } else {
+            ret.push(track);
+        }
+    }
+
+    return ret;
+}
+
+/**
  * Parse the release track position into smaller pieces.
  *
  * This splits the release track position into an object containing the "disc",
@@ -201,17 +256,26 @@ function parseTracklist(tracklist, multiDisc) {
  *
  * @param {string} position - The release track position
  * @param {boolean} multiDisc - Whether or not the release is multi-disc
- * @returns {(object|undefined)} The parsed release track position
+ * @returns {object} The parsed release track position
  */
 function parseTrackPosition(position, multiDisc) {
     // Test cases:
     // - Multi disc, decimal disc split: https://www.discogs.com/John-B-Redox-Catalyst-Reprocessed/release/9935899
     // - Single disc, decimal part split: https://www.discogs.com/Paul-Oakenfold-Tranceport/release/3428
+    // - Alpha part (a/b/c): https://www.discogs.com/Cirrus-Back-On-A-Mission/release/13581
+    // - Roman numerals: https://www.discogs.com/Chvrches-The-Bones-Of-What-You-Believe/release/6480272
+    let tempPosition = position;
+
+    try {
+        tempPosition = deromanize(position.toUpperCase()) + '';
+    } catch(e) {
+    }
+
     const regex = (multiDisc ? POSITION_MULTI_REGEX : POSITION_SINGLE_REGEX);
-    const match = position.match(regex);
+    const match = tempPosition.match(regex);
 
     if(!match) {
-        return;
+        return {};
     }
 
     let {disc, side, track, part} = match.groups;
@@ -220,7 +284,7 @@ function parseTrackPosition(position, multiDisc) {
         disc = disc.substring(0, disc.length - 1);
     }
 
-    if(part !== undefined) {
+    if(part !== undefined && part.substring(0, 1) === '.') {
         part = part.substring(1);
     }
 
@@ -254,6 +318,8 @@ function parseTrackTitle(title) {
             rawSubtitle = rawSubtitle.replace(/^ \((.*)\)$/, '$1');
 
             subtitles.unshift(rawSubtitle);
+        } else {
+            break;
         }
     }
 
@@ -308,7 +374,7 @@ function isTrackFromDisc(track, disc=undefined) {
 function isTrackFirstPart(track) {
     const {position} = track;
 
-    return (position.part === undefined || position.part === '1');
+    return (position.part === undefined || position.part === '1' || position.part === 'a');
 }
 
 /**
@@ -366,7 +432,7 @@ function formatTrack(artist, track, mix=false) {
     const {position, artists, title} = track;
 
     const formattedPosition = formatTrackPosition(position);
-    const formattedTrackArtist = formatTrackArtist(artists?.[0]?.name || artist);
+    const formattedTrackArtist = formatTrackArtist(artist, artists);
     const formattedTrackTitle = formatTrackTitle(title);
 
     if(mix) {
@@ -398,8 +464,53 @@ function formatTrackPosition(position) {
  * @param {string} artist - The track artist
  * @returns {string} The track artist filename component
  */
-function formatTrackArtist(artist) {
-    return formatName(artist);
+function formatTrackArtist(releaseArtist, artists) {
+    // Test cases:
+    // - Multi-artist tracks with alternate names: https://www.discogs.com/John-Digweed-014-Hong-Kong/release/3308237
+    // --Feat joins: https://www.discogs.com/Armin-van-Buuren-A-State-Of-Trance-2007/release/987443
+    // --Presents join: https://www.discogs.com/DJ-Ti%C3%ABsto-In-Search-Of-Sunrise/release/23750
+    // --Numeric artist number: https://www.discogs.com/Various-Discovery-Sampler-Alternative-Volume-One/release/2729201
+    let formattedArtist;
+
+    if(!artists || artists.length === 0) {
+        formattedArtist = releaseArtist;
+    } else {
+        let parts = [];
+
+        for(let x = 0; x < artists.length; x++) {
+            let artist = artists[x].name;
+
+            if(artists[x].anv && artists[x].anv !== '') {
+                artist = artists[x].anv;
+            }
+
+            // Remove trailing artist number
+            artist = artist.replace(/ \([0-9]+\)$/, '');
+
+            parts.push(artist);
+
+            if(artists[x].join && artists[x].join !== '') {
+                let join = artists[x].join.toLowerCase();
+
+                // Standardize joins
+                if(join == 'v.' || join == 'v') {
+                    join = 'vs';
+                } else if(join == 'presents') {
+                    join = 'pres';
+                } else if(join == 'featuring') {
+                    join = 'feat';
+                }
+
+                parts.push(join);
+            } else {
+                break;
+            }
+        }
+
+        formattedArtist = parts.join(' ');
+    }
+
+    return formatName(formattedArtist);
 }
 
 /**
@@ -426,13 +537,16 @@ function formatTrackTitle(title) {
  * @returns {string} The formatted name
  */
 function formatName(name) {
-    return capitalizeTitle(replaceSpecialCharacters(name))
-        .replace(/&/g,'and')
+    return toTitleCase(replaceSpecialCharacters(name))
+        .replace(/ [&\+] /g,' and ')
+        .replace(/[&\+]/g,' and ')
         .replace(/-/g, ' ')
+        .replace(/ A /g, ' a ')
+        .replace(/([0-9]+)\"/, '$1in')
+        .replace(/[^0-9A-Za-z ]/g, '')
         .replace(/\s+/g, ' ')
         .replace(/\s+$/, '')
-        .replace(/([0-9]+)\"/, '$1in')
-        .replace(/[^[0-9A-Za-z ]/g, '')
+        .replace(/^\s+/, '')
         .replace(/ /g, '_');
 }
 

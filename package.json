@@ -8,9 +8,10 @@
     "url": "https://github.com/john-stephens/discogs_rename"
   },
   "dependencies": {
+    "@artsy/to-title-case": "^1.0.3",
     "disconnect": "^1.2.2",
     "replace-special-characters": "^1.2.5",
-    "title": "^3.4.3",
+    "romans": "^2.0.2",
     "url-parse": "^1.5.3",
     "yargs": "^17.1.1"
   }
