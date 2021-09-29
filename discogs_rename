@@ -25,4 +25,4 @@ if [ ! -d "$DIR/node_modules" ]; then
 fi
 
 # Run the script, passing all arguments
-node $DIR/discogs_rename.js $@
+node $DIR/discogs_rename.js "$@"

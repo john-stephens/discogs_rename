@@ -58,6 +58,15 @@ const argv = yargs
         description: 'Ignore a mismatch in file/track count',
         type: 'boolean'
     })
+    .option('join-multi', {
+        description: 'Join multi-part song titles into a single title',
+        type: 'boolean'
+    })
+    .option('join-string', {
+        description: 'String to use to when joining multi-part song titles',
+        default: ' ',
+        type: 'string'
+    })
     .option('dryrun', {
         description: 'Show all output like normal, but don\'t actually rename files',
         type: 'boolean'
@@ -106,10 +115,19 @@ async function main() {
     }
 
     // Get the tracks from the release
-    const tracks = getTracksFromRelease(release, argv.disc);
+    let tracks = getTracksFromRelease(release, argv.disc, argv.joinMulti);
 
     if(argv.debug) {
         console.dir(tracks, {depth: null});
+    }
+
+    // Optionally join the multi-part tracks
+    if(argv.joinMulti) {
+        tracks = joinMultiPartTracks(tracks, argv.joinString);
+
+        if(argv.debug) {
+            console.dir(tracks, {depth: null});
+        }
     }
 
     // Make sure that the number of tracks matches the files supplied
@@ -402,15 +420,61 @@ function getReleaseArtist(release) {
  *
  * @param {object} release - The release data
  * @param {(undefined|string)} disc - The disc to get tracks for
+ * @param {boolean} allParts - Whether or not all track parts should be returned
  * @returns {object[]} The tracks for the release
  */
-function getTracksFromRelease(release, disc=undefined) {
+function getTracksFromRelease(release, disc=undefined, allParts=false) {
     const {tracklist} = release;
     const tracks = tracklist.filter(track => {
-        return (isTrack(track) && isTrackFromDisc(track, disc) && isTrackFirstPart(track))
+        return (isTrack(track) && isTrackFromDisc(track, disc) && (allParts || isTrackFirstPart(track)))
     });
 
     return tracks;
+}
+
+/**
+ * Join multi-part tracks into a single track, combining the titles.
+ *
+ * @param {object[]} tracks - The tracks to join
+ * @param {string} joinString - The string to use when combining track titles
+ * @returns {object[]} The joined tracks
+ */
+function joinMultiPartTracks(tracks, joinString) {
+    // Test case:
+    // https://www.discogs.com/Daft-Punk-Alive-2007/release/1209459
+    const ret = [];
+
+    for(let x = 0; x < tracks.length; x++) {
+        const track = tracks[x];
+        const {position} = track;
+
+        if(position.part === undefined) {
+            ret.push(track);
+        } else {
+            const titles = [track.title.name];
+
+            for(let y = x + 1; y < tracks.length; y++) {
+                const nextTrack = tracks[y];
+
+                if(position.track == nextTrack.position.track) {
+                    titles.push(nextTrack.title.name);
+                    x++;
+                } else {
+                    break;
+                }
+            }
+
+            ret.push({
+                ...track,
+                title: {
+                    name: titles.join(joinString),
+                    subtitles: []
+                }
+            });
+        }
+    }
+
+    return ret;
 }
 
 /**
