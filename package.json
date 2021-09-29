@@ -1,6 +1,6 @@
 {
   "name": "Discogs Rename",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "John Stephens <john.w.stephens@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -14,5 +14,14 @@
     "romans": "^2.0.2",
     "url-parse": "^1.5.3",
     "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-jsdoc": "^36.1.0"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "eslint *.js --fix"
   }
 }

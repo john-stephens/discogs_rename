@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "jsdoc"
+  ],
+  "extends": [
+    "airbnb-base",
+    "plugin:jsdoc/recommended"
+  ],
+  "env": {
+    "node": true
+  },
+  "overrides": [
+    {
+      "files": [ "*.js" ],
+      "rules": {
+        "no-use-before-define": 0,
+        "no-console": 0
+      }
+    }
+  ]
+}
