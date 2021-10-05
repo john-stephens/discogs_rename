@@ -24,12 +24,6 @@ for (let x = 0; x < alwaysLowercaseWords.length; x += 1) {
   }
 }
 
-// Add missing lower-case words
-alwaysLowercaseWords.push('in');
-alwaysLowercaseWords.push('by');
-alwaysLowercaseWords.push('off');
-alwaysLowercaseWords.push('out');
-
 // Lower-case common joining words
 alwaysLowercaseWords.push('pres');
 alwaysLowercaseWords.push('vs');
