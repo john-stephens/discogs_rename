@@ -21,7 +21,7 @@
     "eslint-plugin-jsdoc": "^36.1.0"
   },
   "scripts": {
-    "lint": "eslint *.js",
+    "lint": "eslint *.js src/*.js",
     "lint:fix": "eslint *.js --fix"
   }
 }
