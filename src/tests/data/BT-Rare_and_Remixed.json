@@ -1,0 +1,1112 @@
+{
+  "argv": {
+    "_": [],
+    "mix": true,
+    "disc": "1",
+    "join-string": " ",
+    "joinString": " ",
+    "$0": "generate_data.js",
+    "url": "https://www.discogs.com/BT-R-R-Rare-Remixed/release/22276",
+    "file": [
+      "foo"
+    ]
+  },
+  "release": {
+    "artists": [
+      {
+        "name": "BT",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 2737,
+        "resource_url": "https://api.discogs.com/artists/2737"
+      }
+    ],
+    "format_quantity": 2,
+    "tracklist": [
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "DISC#1",
+        "duration": ""
+      },
+      {
+        "position": "1-1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Remember (ESCM 12\" Mix)",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Jan Johnston",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 10916,
+            "resource_url": "https://api.discogs.com/artists/10916"
+          }
+        ],
+        "duration": "6:21"
+      },
+      {
+        "position": "1-2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "title": "Forbidden Fruit (BT & PvD's Food Of Love Mix)",
+        "extraartists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Paul van Dyk",
+            "anv": "PvD",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          },
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "8:48"
+      },
+      {
+        "position": "1-3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Dharma (2)",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 85353,
+            "resource_url": "https://api.discogs.com/artists/85353"
+          }
+        ],
+        "title": "Transway",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "John Selway",
+            "anv": "",
+            "join": "",
+            "role": "Producer, Written-By",
+            "tracks": "",
+            "id": 17,
+            "resource_url": "https://api.discogs.com/artists/17"
+          }
+        ],
+        "duration": "5:18"
+      },
+      {
+        "position": "1-4",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Shame (Way Out West Mix)",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Arranged By, Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Richard Fortus",
+            "anv": "",
+            "join": "",
+            "role": "Guitar [Additional]",
+            "tracks": "",
+            "id": 265003,
+            "resource_url": "https://api.discogs.com/artists/265003"
+          },
+          {
+            "name": "Way Out West",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 3128,
+            "resource_url": "https://api.discogs.com/artists/3128"
+          }
+        ],
+        "duration": "6:23"
+      },
+      {
+        "position": "1-5",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Grace",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 9709,
+            "resource_url": "https://api.discogs.com/artists/9709"
+          }
+        ],
+        "title": "Not Over Yet (BT's Spirit Of Grace)",
+        "extraartists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Paul Oakenfold",
+            "anv": "Oakenfold",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 67218,
+            "resource_url": "https://api.discogs.com/artists/67218"
+          },
+          {
+            "name": "Rob Davis",
+            "anv": "Davis",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 84649,
+            "resource_url": "https://api.discogs.com/artists/84649"
+          },
+          {
+            "name": "Taj Wyzgowski",
+            "anv": "Wyzgowski",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 561447,
+            "resource_url": "https://api.discogs.com/artists/561447"
+          }
+        ],
+        "duration": "8:00"
+      },
+      {
+        "position": "1-6",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Mike Oldfield",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 18666,
+            "resource_url": "https://api.discogs.com/artists/18666"
+          }
+        ],
+        "title": "Let There Be Light (The Ultraviolet Mix)",
+        "extraartists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Mike Oldfield",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 18666,
+            "resource_url": "https://api.discogs.com/artists/18666"
+          }
+        ],
+        "duration": "6:44"
+      },
+      {
+        "position": "1-7",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Libra",
+            "anv": "",
+            "join": "Presents",
+            "role": "",
+            "tracks": "",
+            "id": 4231,
+            "resource_url": "https://api.discogs.com/artists/4231"
+          },
+          {
+            "name": "Taylor",
+            "anv": "",
+            "join": "Featuring",
+            "role": "",
+            "tracks": "",
+            "id": 6866,
+            "resource_url": "https://api.discogs.com/artists/6866"
+          },
+          {
+            "name": "Jan Johnston",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 10916,
+            "resource_url": "https://api.discogs.com/artists/10916"
+          }
+        ],
+        "title": "Anomaly (Calling Your Name)",
+        "extraartists": [
+          {
+            "name": "Taylor",
+            "anv": "",
+            "join": "",
+            "role": "Co-producer",
+            "tracks": "",
+            "id": 6866,
+            "resource_url": "https://api.discogs.com/artists/6866"
+          },
+          {
+            "name": "Libra",
+            "anv": "",
+            "join": "",
+            "role": "Presenter",
+            "tracks": "",
+            "id": 4231,
+            "resource_url": "https://api.discogs.com/artists/4231"
+          },
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Jan Johnston",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 10916,
+            "resource_url": "https://api.discogs.com/artists/10916"
+          }
+        ],
+        "duration": "7:43"
+      },
+      {
+        "position": "1-8",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Seal",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 10643,
+            "resource_url": "https://api.discogs.com/artists/10643"
+          }
+        ],
+        "title": "I'm Alive (BT & Sasha Mix)",
+        "extraartists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Sasha",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 3365,
+            "resource_url": "https://api.discogs.com/artists/3365"
+          },
+          {
+            "name": "Gus Isidore",
+            "anv": "Isidore",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 344387,
+            "resource_url": "https://api.discogs.com/artists/344387"
+          },
+          {
+            "name": "Lisa Coleman",
+            "anv": "Coleman",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 90538,
+            "resource_url": "https://api.discogs.com/artists/90538"
+          },
+          {
+            "name": "Seal",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 10643,
+            "resource_url": "https://api.discogs.com/artists/10643"
+          },
+          {
+            "name": "Wendy Melvoin",
+            "anv": "Melvoin",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 273608,
+            "resource_url": "https://api.discogs.com/artists/273608"
+          }
+        ],
+        "duration": "5:09"
+      },
+      {
+        "position": "1-9",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Sasha",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 3365,
+            "resource_url": "https://api.discogs.com/artists/3365"
+          },
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Heart Of Imagination",
+        "extraartists": [
+          {
+            "name": "Alexander Coe",
+            "anv": "A. Coe",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 642055,
+            "resource_url": "https://api.discogs.com/artists/642055"
+          },
+          {
+            "name": "Brian Transeau",
+            "anv": "B. Transeau",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          }
+        ],
+        "duration": "8:11"
+      },
+      {
+        "position": "1-10",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Prana (2)",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 48274,
+            "resource_url": "https://api.discogs.com/artists/48274"
+          }
+        ],
+        "title": "The Dream",
+        "extraartists": [
+          {
+            "name": "Ali Shirazinia",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 611717,
+            "resource_url": "https://api.discogs.com/artists/611717"
+          },
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "John Selway",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 17,
+            "resource_url": "https://api.discogs.com/artists/17"
+          }
+        ],
+        "duration": "7:00"
+      },
+      {
+        "position": "1-11",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Elastic Reality",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4689,
+            "resource_url": "https://api.discogs.com/artists/4689"
+          }
+        ],
+        "title": "Cassa De X",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Shaun Keng Collins",
+            "anv": "S. Keng Collins",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 178067,
+            "resource_url": "https://api.discogs.com/artists/178067"
+          }
+        ],
+        "duration": "4:20"
+      },
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "DISC#2",
+        "duration": ""
+      },
+      {
+        "position": "2-1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "Featuring",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Jan Johnston",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 10916,
+            "resource_url": "https://api.discogs.com/artists/10916"
+          }
+        ],
+        "title": "Sunblind",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Arranged By, Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Richard Fortus",
+            "anv": "",
+            "join": "",
+            "role": "Guitar [Live]",
+            "tracks": "",
+            "id": 265003,
+            "resource_url": "https://api.discogs.com/artists/265003"
+          },
+          {
+            "name": "Jan Johnston",
+            "anv": "",
+            "join": "",
+            "role": "Vocals, Featuring",
+            "tracks": "",
+            "id": 10916,
+            "resource_url": "https://api.discogs.com/artists/10916"
+          }
+        ],
+        "duration": "9:59"
+      },
+      {
+        "position": "2-2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Smartbomb (Plump DJs Mix)",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Arranged By, Mixed By, Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Plump DJs",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 7961,
+            "resource_url": "https://api.discogs.com/artists/7961"
+          }
+        ],
+        "duration": "4:51"
+      },
+      {
+        "position": "2-3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Fibonacci Sequence",
+        "extraartists": [
+          {
+            "name": "John Ross",
+            "anv": "Ronnie from The Light",
+            "join": "",
+            "role": "Beats [Additional], Programmed By",
+            "tracks": "",
+            "id": 139296,
+            "resource_url": "https://api.discogs.com/artists/139296"
+          },
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Engineer, Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Bill Rust",
+            "anv": "",
+            "join": "",
+            "role": "Vocals [Vocal samples manipulated by]",
+            "tracks": "",
+            "id": 1377789,
+            "resource_url": "https://api.discogs.com/artists/1377789"
+          }
+        ],
+        "duration": "6:38"
+      },
+      {
+        "position": "2-4",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Tsunami One",
+            "anv": "",
+            "join": "&",
+            "role": "",
+            "tracks": "",
+            "id": 6577,
+            "resource_url": "https://api.discogs.com/artists/6577"
+          },
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Hip Hop Phenomenon",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Tsunami One",
+            "anv": "",
+            "join": "",
+            "role": "Producer, Written-By",
+            "tracks": "",
+            "id": 6577,
+            "resource_url": "https://api.discogs.com/artists/6577"
+          }
+        ],
+        "duration": "3:45"
+      },
+      {
+        "position": "2-5",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Godspeed (Hybrid Mix)",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Arranged By, Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Hybrid",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 5513,
+            "resource_url": "https://api.discogs.com/artists/5513"
+          }
+        ],
+        "duration": "3:58"
+      },
+      {
+        "position": "2-6",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Dreaming (Science Dept.'s Friends And Family Mix)",
+        "extraartists": [
+          {
+            "name": "Science Department",
+            "anv": "Science Dept.",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 5920,
+            "resource_url": "https://api.discogs.com/artists/5920"
+          },
+          {
+            "name": "Brian Transeau",
+            "anv": "B. Transeau",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Judie Tzuke",
+            "anv": "J. Tzuke",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 201677,
+            "resource_url": "https://api.discogs.com/artists/201677"
+          },
+          {
+            "name": "Mike Paxman",
+            "anv": "M. Paxman",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 308843,
+            "resource_url": "https://api.discogs.com/artists/308843"
+          },
+          {
+            "name": "Paul Muggleton",
+            "anv": "P. Muggleton",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 308842,
+            "resource_url": "https://api.discogs.com/artists/308842"
+          }
+        ],
+        "duration": "7:29"
+      },
+      {
+        "position": "2-7",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "Featuring",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Tori Amos",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 9902,
+            "resource_url": "https://api.discogs.com/artists/9902"
+          }
+        ],
+        "title": "Blue Skies (Paul Van Dyk's Blauer Himmel Mix / Erinnern Indigo Mix)",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Mixed By, Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          },
+          {
+            "name": "Tori Amos",
+            "anv": "",
+            "join": "",
+            "role": "Vocals, Featuring",
+            "tracks": "",
+            "id": 9902,
+            "resource_url": "https://api.discogs.com/artists/9902"
+          }
+        ],
+        "duration": "7:37"
+      },
+      {
+        "position": "2-8",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Never Gonna Come Back Down (Timo Maas Mix)",
+        "extraartists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "Music By",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Timo Maas",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1014,
+            "resource_url": "https://api.discogs.com/artists/1014"
+          },
+          {
+            "name": "Mike Doughty",
+            "anv": "M. Doughty",
+            "join": "",
+            "role": "Vocals, Words By",
+            "tracks": "",
+            "id": 462377,
+            "resource_url": "https://api.discogs.com/artists/462377"
+          }
+        ],
+        "duration": "5:45"
+      },
+      {
+        "position": "2-9",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Dina Carroll",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 5372,
+            "resource_url": "https://api.discogs.com/artists/5372"
+          }
+        ],
+        "title": "Run To You (BT vs PvD Mix)",
+        "extraartists": [
+          {
+            "name": "Nigel Lowis",
+            "anv": "Nigel Philip Lowis",
+            "join": "",
+            "role": "Producer, Written-By",
+            "tracks": "",
+            "id": 44159,
+            "resource_url": "https://api.discogs.com/artists/44159"
+          },
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Paul van Dyk",
+            "anv": "PvD",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          },
+          {
+            "name": "Dina Carroll",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 5372,
+            "resource_url": "https://api.discogs.com/artists/5372"
+          }
+        ],
+        "duration": "5:06"
+      },
+      {
+        "position": "2-10",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Sarah McLachlan",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 12387,
+            "resource_url": "https://api.discogs.com/artists/12387"
+          }
+        ],
+        "title": "I Love You (BT Mix)",
+        "extraartists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          },
+          {
+            "name": "Sarah McLachlan",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 12387,
+            "resource_url": "https://api.discogs.com/artists/12387"
+          }
+        ],
+        "duration": "7:44"
+      },
+      {
+        "position": "2-11",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "BT",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 2737,
+            "resource_url": "https://api.discogs.com/artists/2737"
+          }
+        ],
+        "title": "Flaming June",
+        "extraartists": [
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Engineer, Producer, Written-By",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Brian Transeau",
+            "anv": "",
+            "join": "",
+            "role": "Producer [Additional], Remix",
+            "tracks": "",
+            "id": 7441,
+            "resource_url": "https://api.discogs.com/artists/7441"
+          },
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Producer [Additional], Remix",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "7:15"
+      }
+    ]
+  },
+  "tracks": [
+    "01-BT-Remember-ESCM_12in_Mix",
+    "02-Paul_Van_Dyk-Forbidden_Fruit-BT_and_PvDs_Food_of_Love_Mix",
+    "03-Dharma-Transway",
+    "04-BT-Shame-Way_Out_West_Mix",
+    "05-Grace-Not_Over_Yet-BTs_Spirit_of_Grace",
+    "06-Mike_Oldfield-Let_There_Be_Light-The_Ultraviolet_Mix",
+    "07-Libra_pres_Taylor_feat_Jan_Johnston-Anomaly-Calling_Your_Name",
+    "08-Seal-Im_Alive-BT_and_Sasha_Mix",
+    "09-Sasha_and_BT-Heart_of_Imagination",
+    "10-Prana-The_Dream",
+    "11-Elastic_Reality-Cassa_De_X"
+  ]
+}

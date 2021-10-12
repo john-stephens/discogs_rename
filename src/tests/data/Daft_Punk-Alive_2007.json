@@ -1,0 +1,558 @@
+{
+  "argv": {
+    "_": [],
+    "join-multi": true,
+    "joinMulti": true,
+    "join-string": " z ",
+    "joinString": " z ",
+    "$0": "generate_data.js",
+    "url": "https://www.discogs.com/Daft-Punk-Alive-2007/release/1209459",
+    "file": [
+      "foo"
+    ]
+  },
+  "release": {
+    "artists": [
+      {
+        "name": "Daft Punk",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 1289,
+        "resource_url": "https://api.discogs.com/artists/1289"
+      }
+    ],
+    "format_quantity": 1,
+    "tracklist": [
+      {
+        "position": "1a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Robot Rock",
+        "duration": "6:28"
+      },
+      {
+        "position": "1b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Oh Yeah",
+        "duration": ""
+      },
+      {
+        "position": "2a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Busta Rhymes",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 37906,
+            "resource_url": "https://api.discogs.com/artists/37906"
+          }
+        ],
+        "title": "Touch It",
+        "duration": "5:30"
+      },
+      {
+        "position": "2b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Technologic",
+        "duration": ""
+      },
+      {
+        "position": "3a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Television Rules The Nation",
+        "duration": "4:51"
+      },
+      {
+        "position": "3b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Crescendolls",
+        "duration": ""
+      },
+      {
+        "position": "4a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Too Long",
+        "extraartists": [
+          {
+            "name": "Romanthony",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 2583,
+            "resource_url": "https://api.discogs.com/artists/2583"
+          }
+        ],
+        "duration": "7:02"
+      },
+      {
+        "position": "4b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Steam Machine",
+        "duration": ""
+      },
+      {
+        "position": "5a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Around The World",
+        "duration": "5:43"
+      },
+      {
+        "position": "5b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Harder Better Faster Stronger",
+        "duration": ""
+      },
+      {
+        "position": "6a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Burnin'",
+        "duration": "7:12"
+      },
+      {
+        "position": "6b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Too Long",
+        "extraartists": [
+          {
+            "name": "Romanthony",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 2583,
+            "resource_url": "https://api.discogs.com/artists/2583"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "7a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Face To Face",
+        "extraartists": [
+          {
+            "name": "Todd Edwards",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 161,
+            "resource_url": "https://api.discogs.com/artists/161"
+          }
+        ],
+        "duration": "4:55"
+      },
+      {
+        "position": "7b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Short Circuit",
+        "duration": ""
+      },
+      {
+        "position": "8a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "One More Time",
+        "extraartists": [
+          {
+            "name": "Romanthony",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 2583,
+            "resource_url": "https://api.discogs.com/artists/2583"
+          }
+        ],
+        "duration": "6:11"
+      },
+      {
+        "position": "8b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Aerodynamic",
+        "duration": ""
+      },
+      {
+        "position": "9a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Aerodynamic Beats",
+        "duration": "3:32"
+      },
+      {
+        "position": "9b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Gabrielle",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 5393,
+            "resource_url": "https://api.discogs.com/artists/5393"
+          }
+        ],
+        "title": "Forget About The World (Daft Punk Alive Mix)",
+        "extraartists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "10a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Prime Time Of Your Life",
+        "duration": "10:22"
+      },
+      {
+        "position": "10b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Brainwasher",
+        "duration": ""
+      },
+      {
+        "position": "10c",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Rollin' And Scratchin'",
+        "duration": ""
+      },
+      {
+        "position": "10d",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Alive",
+        "duration": ""
+      },
+      {
+        "position": "11a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Da Funk",
+        "duration": "6:37"
+      },
+      {
+        "position": "11b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Daftendirekt",
+        "duration": ""
+      },
+      {
+        "position": "12a",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Superheroes",
+        "duration": "5:41"
+      },
+      {
+        "position": "12b",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Human After All",
+        "duration": ""
+      },
+      {
+        "position": "12c",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Daft Punk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1289,
+            "resource_url": "https://api.discogs.com/artists/1289"
+          }
+        ],
+        "title": "Rock 'n Roll",
+        "duration": ""
+      }
+    ]
+  },
+  "tracks": [
+    "01-Robot_Rock_Z_Oh_Yeah",
+    "02-Touch_It_Z_Technologic",
+    "03-Television_Rules_the_Nation_Z_Crescendolls",
+    "04-Too_Long_Z_Steam_Machine",
+    "05-Around_the_World_Z_Harder_Better_Faster_Stronger",
+    "06-Burnin_Z_Too_Long",
+    "07-Face_to_Face_Z_Short_Circuit",
+    "08-One_More_Time_Z_Aerodynamic",
+    "09-Aerodynamic_Beats_Z_Forget_About_the_World",
+    "10-Prime_Time_of_Your_Life_Z_Brainwasher_Z_Rollin_and_Scratchin_Z_Alive",
+    "11-Da_Funk_Z_Daftendirekt",
+    "12-Superheroes_Z_Human_After_All_Z_Rock_n_Roll"
+  ]
+}

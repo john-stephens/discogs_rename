@@ -1,0 +1,106 @@
+{
+  "argv": {
+    "_": [],
+    "join-string": " ",
+    "joinString": " ",
+    "$0": "generate_data.js",
+    "url": "https://www.discogs.com/Cirrus-Back-On-A-Mission/release/13581",
+    "file": [
+      "foo"
+    ]
+  },
+  "release": {
+    "artists": [
+      {
+        "name": "Cirrus",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 4326,
+        "resource_url": "https://api.discogs.com/artists/4326"
+      }
+    ],
+    "format_quantity": 1,
+    "tracklist": [
+      {
+        "position": "1",
+        "type_": "track",
+        "title": "Back On A Mission",
+        "duration": "3:38"
+      },
+      {
+        "position": "2",
+        "type_": "track",
+        "title": "The Answer",
+        "duration": "5:43"
+      },
+      {
+        "position": "3",
+        "type_": "track",
+        "title": "Stop & Panic",
+        "duration": "7:19"
+      },
+      {
+        "position": "4",
+        "type_": "track",
+        "title": "Abba Zabba",
+        "duration": "5:14"
+      },
+      {
+        "position": "5",
+        "type_": "track",
+        "title": "Soul Blast",
+        "duration": "5:03"
+      },
+      {
+        "position": "6",
+        "type_": "track",
+        "title": "Captain Cocktail",
+        "duration": "6:22"
+      },
+      {
+        "position": "7",
+        "type_": "track",
+        "title": "Rock The Funky Joint",
+        "duration": "5:55"
+      },
+      {
+        "position": "8",
+        "type_": "track",
+        "title": "Break The Madness",
+        "duration": "4:33"
+      },
+      {
+        "position": "9",
+        "type_": "track",
+        "title": "No Pressure",
+        "duration": "4:29"
+      },
+      {
+        "position": "10a",
+        "type_": "track",
+        "title": "Times Running Out",
+        "duration": "5:12"
+      },
+      {
+        "position": "10b",
+        "type_": "track",
+        "title": "Backwards Ass Country Funk",
+        "duration": "5:07"
+      }
+    ]
+  },
+  "tracks": [
+    "01-Back_on_a_Mission",
+    "02-The_Answer",
+    "03-Stop_and_Panic",
+    "04-Abba_Zabba",
+    "05-Soul_Blast",
+    "06-Captain_Cocktail",
+    "07-Rock_the_Funky_Joint",
+    "08-Break_the_Madness",
+    "09-No_Pressure",
+    "10-Times_Running_Out"
+  ]
+}

@@ -36,7 +36,7 @@ function getFormattedTracks(artist, tracks, mix = false) {
  * @param {boolean} mix - Whether or not this is a multi-artist mix
  * @returns {string} The track formatted as a filename
  */
-function formatTrack(artist, track, mix = false) {
+function formatTrack(artist, track, mix) {
   const { position, artists, title } = track;
 
   const formattedPosition = formatTrackPosition(position);

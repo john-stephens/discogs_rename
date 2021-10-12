@@ -4,10 +4,12 @@
   ],
   "extends": [
     "airbnb-base",
-    "plugin:jsdoc/recommended"
+    "plugin:jsdoc/recommended",
+    "plugin:jest/recommended"
   ],
   "env": {
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
   "overrides": [
     {

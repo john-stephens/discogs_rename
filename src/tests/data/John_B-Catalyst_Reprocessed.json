@@ -1,0 +1,150 @@
+{
+  "argv": {
+    "_": [],
+    "disc": "2",
+    "join-string": " ",
+    "joinString": " ",
+    "$0": "generate_data.js",
+    "url": "https://www.discogs.com/John-B-Redox-Catalyst-Reprocessed/release/9935899",
+    "file": [
+      "foo"
+    ]
+  },
+  "release": {
+    "artists": [
+      {
+        "name": "John B",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 309,
+        "resource_url": "https://api.discogs.com/artists/309"
+      }
+    ],
+    "format_quantity": 2,
+    "tracklist": [
+      {
+        "position": "1.1",
+        "type_": "track",
+        "title": "We Like The Music (Latino Mix)",
+        "duration": ""
+      },
+      {
+        "position": "1.2",
+        "type_": "track",
+        "title": "Gollum Vs. Poison Arrow",
+        "duration": ""
+      },
+      {
+        "position": "1.3",
+        "type_": "track",
+        "title": "Imagine (Deep 12\" Mix)",
+        "duration": ""
+      },
+      {
+        "position": "1.4",
+        "type_": "track",
+        "title": "Let Rip (Hair Alert Remix)",
+        "duration": ""
+      },
+      {
+        "position": "1.5",
+        "type_": "track",
+        "title": "Simulated Sax (12\" Remix)",
+        "duration": ""
+      },
+      {
+        "position": "1.6",
+        "type_": "track",
+        "title": "Prowler (Remix)",
+        "duration": ""
+      },
+      {
+        "position": "1.7",
+        "type_": "track",
+        "title": "Double-J (Club Mix)",
+        "extraartists": [
+          {
+            "name": "MC Justiyc",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 32437,
+            "resource_url": "https://api.discogs.com/artists/32437"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "John B DJ Mix",
+        "duration": ""
+      },
+      {
+        "position": "2.1",
+        "type_": "track",
+        "title": "We Like The Music (Latino Mix)",
+        "duration": ""
+      },
+      {
+        "position": "2.2",
+        "type_": "track",
+        "title": "Gollum Vs. Poison Arrow",
+        "duration": ""
+      },
+      {
+        "position": "2.3",
+        "type_": "track",
+        "title": "Imagine (Deep 12\" Mix)",
+        "duration": ""
+      },
+      {
+        "position": "2.4",
+        "type_": "track",
+        "title": "Let Rip (Hair Alert Remix)",
+        "duration": ""
+      },
+      {
+        "position": "2.5",
+        "type_": "track",
+        "title": "Simulated Sax (12\" Remix)",
+        "duration": ""
+      },
+      {
+        "position": "2.6",
+        "type_": "track",
+        "title": "Prowler (Remix)",
+        "duration": ""
+      },
+      {
+        "position": "2.7",
+        "type_": "track",
+        "title": "Double-J (Club Mix)",
+        "extraartists": [
+          {
+            "name": "MC Justiyc",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 32437,
+            "resource_url": "https://api.discogs.com/artists/32437"
+          }
+        ],
+        "duration": ""
+      }
+    ]
+  },
+  "tracks": [
+    "01-We_Like_the_Music-Latino_Mix",
+    "02-Gollum_vs_Poison_Arrow",
+    "03-Imagine-Deep_12in_Mix",
+    "04-Let_Rip-Hair_Alert_Remix",
+    "05-Simulated_Sax-12in_Remix",
+    "06-Prowler-Remix",
+    "07-Double_J-Club_Mix"
+  ]
+}

@@ -46,16 +46,12 @@ function getReleaseIdFromUrl(url) {
  */
 function getDiscogsRelease(releaseId) {
   return new Promise((resolve) => {
-    try {
-      const discogs = new Discogs(AGENT);
-      const db = discogs.database();
+    const discogs = new Discogs(AGENT);
+    const db = discogs.database();
 
-      db.getRelease(releaseId, (err, data) => {
-        resolve(data);
-      });
-    } catch (e) {
-      resolve(false);
-    }
+    db.getRelease(releaseId, (err, data) => {
+      resolve(data);
+    });
   });
 }
 

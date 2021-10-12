@@ -1,0 +1,47 @@
+#!/bin/bash
+
+# Cases:
+# - Basic single-disc album
+# - Unnecessary join
+node generate_data.js https://www.discogs.com/Weezer-Weezer/release/8454285 --join-multi foo > Weezer-Blue_Album.json
+
+# Cases:
+# - Single-disc mix album
+# - Single and multiple track sub-titles in parenthesis
+# - Multi-part track (first selected, decimal split)
+# - Double-quote to "in"
+node generate_data.js https://www.discogs.com/Paul-Oakenfold-Tranceport/release/3428 --mix foo > Paul_Oakenfold-Tranceport.json
+
+# Cases:
+# - Join multi-part tracks
+node generate_data.js https://www.discogs.com/Daft-Punk-Alive-2007/release/1209459 --join-multi --join-string " z " foo > Daft_Punk-Alive_2007.json
+
+# Cases:
+# - Roman numerals
+node generate_data.js https://www.discogs.com/Chvrches-The-Bones-Of-What-You-Believe/release/6480272 foo > Chvrches-The_Bones_of_What_You_Believe.json
+
+# Cases:
+# - Nested track list
+node generate_data.js https://www.discogs.com/Orbital-The-Box/release/870 foo > Orbital-The_Box.json
+
+# Cases:
+# - Multi-disc, decimal disc split
+node generate_data.js https://www.discogs.com/John-B-Redox-Catalyst-Reprocessed/release/9935899 --disc 2 foo > John_B-Catalyst_Reprocessed.json
+
+# Cases:
+# - Single-disc, alpha part split
+node generate_data.js https://www.discogs.com/Cirrus-Back-On-A-Mission/release/13581 foo > Cirrus-Back_on_a_Mission.json
+
+# Cases:
+# - "feat" and "presents" artist joins
+node generate_data.js https://www.discogs.com/BT-R-R-Rare-Remixed/release/22276 --mix --disc 1 foo > BT-Rare_and_Remixed.json
+
+# Test cases:
+# - Multi-artist tracks with alternate names: https://www.discogs.com/John-Digweed-014-Hong-Kong/release/3308237
+# --Feat joins: https://www.discogs.com/Armin-van-Buuren-A-State-Of-Trance-2007/release/987443
+# --Presents join: https://www.discogs.com/DJ-Ti%C3%ABsto-In-Search-Of-Sunrise/release/23750
+# --Numeric artist number: https://www.discogs.com/Various-Discovery-Sampler-Alternative-Volume-One/release/2729201
+# Flattened track list
+# https://www.discogs.com/BT-%E4%BB%8A-Ima/release/23064
+
+

@@ -1,0 +1,748 @@
+{
+  "argv": {
+    "_": [],
+    "mix": true,
+    "join-string": " ",
+    "joinString": " ",
+    "$0": "generate_data.js",
+    "url": "https://www.discogs.com/Paul-Oakenfold-Tranceport/release/3428",
+    "file": [
+      "foo"
+    ]
+  },
+  "release": {
+    "artists": [
+      {
+        "name": "Paul Oakenfold",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 67218,
+        "resource_url": "https://api.discogs.com/artists/67218"
+      }
+    ],
+    "format_quantity": 1,
+    "tracklist": [
+      {
+        "position": "1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Dream Traveler",
+            "anv": "The Dream Traveler",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4329,
+            "resource_url": "https://api.discogs.com/artists/4329"
+          }
+        ],
+        "title": "Time (Original Mix)",
+        "extraartists": [
+          {
+            "name": "DJ Inertia",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 46946,
+            "resource_url": "https://api.discogs.com/artists/46946"
+          },
+          {
+            "name": "Joey Fehrenbach",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 480971,
+            "resource_url": "https://api.discogs.com/artists/480971"
+          }
+        ],
+        "duration": "6:36"
+      },
+      {
+        "position": "2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Three Drives",
+            "anv": "Three Drives On A Vinyl",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4488,
+            "resource_url": "https://api.discogs.com/artists/4488"
+          }
+        ],
+        "title": "Greece 2000 (Original Mix)",
+        "extraartists": [
+          {
+            "name": "DJ Ton T.B. & DJ Enrico",
+            "anv": "Enrico/Ton TB",
+            "join": "",
+            "role": "Written-By, Producer",
+            "tracks": "",
+            "id": 34574,
+            "resource_url": "https://api.discogs.com/artists/34574"
+          }
+        ],
+        "duration": "6:30"
+      },
+      {
+        "position": "3",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Tilt",
+            "anv": "",
+            "join": "v.",
+            "role": "",
+            "tracks": "",
+            "id": 1761,
+            "resource_url": "https://api.discogs.com/artists/1761"
+          },
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "title": "Rendezvous (Quadraphonic Mix)",
+        "extraartists": [
+          {
+            "name": "Nic Britton",
+            "anv": "",
+            "join": "",
+            "role": "Engineer",
+            "tracks": "",
+            "id": 64327,
+            "resource_url": "https://api.discogs.com/artists/64327"
+          },
+          {
+            "name": "John Graham",
+            "anv": "Graham",
+            "join": "",
+            "role": "Written-By, Producer, Mixed By",
+            "tracks": "",
+            "id": 44728,
+            "resource_url": "https://api.discogs.com/artists/44728"
+          },
+          {
+            "name": "Michael Park",
+            "anv": "Park",
+            "join": "",
+            "role": "Written-By, Producer, Mixed By",
+            "tracks": "",
+            "id": 497449,
+            "resource_url": "https://api.discogs.com/artists/497449"
+          },
+          {
+            "name": "Michael Wilson (3)",
+            "anv": "Wilson",
+            "join": "",
+            "role": "Written-By, Producer, Mixed By",
+            "tracks": "",
+            "id": 497448,
+            "resource_url": "https://api.discogs.com/artists/497448"
+          },
+          {
+            "name": "Paul van Dyk",
+            "anv": "Van Dyk",
+            "join": "",
+            "role": "Written-By, Producer, Mixed By",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "3:59"
+      },
+      {
+        "position": "4",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "GusGus",
+            "anv": "Gus Gus",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 231513,
+            "resource_url": "https://api.discogs.com/artists/231513"
+          }
+        ],
+        "title": "Purple (Sasha v. The Light)",
+        "extraartists": [
+          {
+            "name": "GusGus",
+            "anv": "Gus Gus",
+            "join": "",
+            "role": "Producer, Arranged By, Mixed By",
+            "tracks": "",
+            "id": 231513,
+            "resource_url": "https://api.discogs.com/artists/231513"
+          },
+          {
+            "name": "Páll Borg",
+            "anv": "",
+            "join": "",
+            "role": "Producer, Arranged By, Mixed By",
+            "tracks": "",
+            "id": 293293,
+            "resource_url": "https://api.discogs.com/artists/293293"
+          },
+          {
+            "name": "Sasha",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional Production]",
+            "tracks": "",
+            "id": 3365,
+            "resource_url": "https://api.discogs.com/artists/3365"
+          },
+          {
+            "name": "The Light",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional Production]",
+            "tracks": "",
+            "id": 2863,
+            "resource_url": "https://api.discogs.com/artists/2863"
+          },
+          {
+            "name": "Birgir Thorarinsson",
+            "anv": "Biggi Thorarinsson",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 124553,
+            "resource_url": "https://api.discogs.com/artists/124553"
+          },
+          {
+            "name": "Herb Legowitz",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 51044,
+            "resource_url": "https://api.discogs.com/artists/51044"
+          },
+          {
+            "name": "Ian Martin Wright",
+            "anv": "Ian Wright",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 129290,
+            "resource_url": "https://api.discogs.com/artists/129290"
+          },
+          {
+            "name": "Peter Coyle",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 117816,
+            "resource_url": "https://api.discogs.com/artists/117816"
+          },
+          {
+            "name": "Steve Cummerson",
+            "anv": "Stephen Cummerson",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 570638,
+            "resource_url": "https://api.discogs.com/artists/570638"
+          }
+        ],
+        "duration": "8:15"
+      },
+      {
+        "position": "5.1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Ascension",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4332,
+            "resource_url": "https://api.discogs.com/artists/4332"
+          }
+        ],
+        "title": "Someone (Slacker Mix)",
+        "extraartists": [
+          {
+            "name": "Stephen Jones (2)",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 461571,
+            "resource_url": "https://api.discogs.com/artists/461571"
+          },
+          {
+            "name": "Slacker",
+            "anv": "",
+            "join": "",
+            "role": "Producer [Additional Production], Remix",
+            "tracks": "",
+            "id": 5511,
+            "resource_url": "https://api.discogs.com/artists/5511"
+          },
+          {
+            "name": "Joanna Law",
+            "anv": "",
+            "join": "",
+            "role": "Vocals [Additional Vocals]",
+            "tracks": "",
+            "id": 26042,
+            "resource_url": "https://api.discogs.com/artists/26042"
+          },
+          {
+            "name": "Kate Cameron",
+            "anv": "",
+            "join": "",
+            "role": "Vocals [Additional Vocals]",
+            "tracks": "",
+            "id": 44930,
+            "resource_url": "https://api.discogs.com/artists/44930"
+          },
+          {
+            "name": "Roxanne (3)",
+            "anv": "",
+            "join": "",
+            "role": "Vocals [Additional Vocals]",
+            "tracks": "",
+            "id": 237872,
+            "resource_url": "https://api.discogs.com/artists/237872"
+          },
+          {
+            "name": "Rick Simmonds",
+            "anv": "R. Simmonds",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 87316,
+            "resource_url": "https://api.discogs.com/artists/87316"
+          },
+          {
+            "name": "Stephen Jones (2)",
+            "anv": "S. Jones",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 461571,
+            "resource_url": "https://api.discogs.com/artists/461571"
+          }
+        ],
+        "duration": "8:18"
+      },
+      {
+        "position": "5.2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Ascension",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4332,
+            "resource_url": "https://api.discogs.com/artists/4332"
+          }
+        ],
+        "title": "Someone (Original Vocal Mix)",
+        "extraartists": [
+          {
+            "name": "Stephen Jones (2)",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 461571,
+            "resource_url": "https://api.discogs.com/artists/461571"
+          },
+          {
+            "name": "Joanna Law",
+            "anv": "",
+            "join": "",
+            "role": "Vocals [Additional Vocals]",
+            "tracks": "",
+            "id": 26042,
+            "resource_url": "https://api.discogs.com/artists/26042"
+          },
+          {
+            "name": "Kate Cameron",
+            "anv": "",
+            "join": "",
+            "role": "Vocals [Additional Vocals]",
+            "tracks": "",
+            "id": 44930,
+            "resource_url": "https://api.discogs.com/artists/44930"
+          },
+          {
+            "name": "Roxanne (3)",
+            "anv": "",
+            "join": "",
+            "role": "Vocals [Additional Vocals]",
+            "tracks": "",
+            "id": 237872,
+            "resource_url": "https://api.discogs.com/artists/237872"
+          },
+          {
+            "name": "Rick Simmonds",
+            "anv": "R. Simmonds",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 87316,
+            "resource_url": "https://api.discogs.com/artists/87316"
+          },
+          {
+            "name": "Stephen Jones (2)",
+            "anv": "S. Jones",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 461571,
+            "resource_url": "https://api.discogs.com/artists/461571"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "6",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Agnelli & Nelson",
+            "anv": "Agnelli + Nelson",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4333,
+            "resource_url": "https://api.discogs.com/artists/4333"
+          }
+        ],
+        "title": "El Niño (Matt Darey 12\" Mix)",
+        "extraartists": [
+          {
+            "name": "CJ Agnelli",
+            "anv": "",
+            "join": "",
+            "role": "Mixed By",
+            "tracks": "",
+            "id": 39113,
+            "resource_url": "https://api.discogs.com/artists/39113"
+          },
+          {
+            "name": "Matt Darey",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional Production]",
+            "tracks": "",
+            "id": 1688,
+            "resource_url": "https://api.discogs.com/artists/1688"
+          },
+          {
+            "name": "Marcella Woods",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 39115,
+            "resource_url": "https://api.discogs.com/artists/39115"
+          },
+          {
+            "name": "Agnelli & Nelson",
+            "anv": "CJ Agnelli And Robbie Nelson",
+            "join": "",
+            "role": "Written-By, Producer",
+            "tracks": "",
+            "id": 4333,
+            "resource_url": "https://api.discogs.com/artists/4333"
+          }
+        ],
+        "duration": "8:03"
+      },
+      {
+        "position": "7",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Energy 52",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4120,
+            "resource_url": "https://api.discogs.com/artists/4120"
+          }
+        ],
+        "title": "Café Del Mar (Three N One Remix)",
+        "extraartists": [
+          {
+            "name": "Paul M.",
+            "anv": "",
+            "join": "",
+            "role": "Composed By, Producer",
+            "tracks": "",
+            "id": 33117,
+            "resource_url": "https://api.discogs.com/artists/33117"
+          },
+          {
+            "name": "Three 'N One",
+            "anv": "",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 14423,
+            "resource_url": "https://api.discogs.com/artists/14423"
+          },
+          {
+            "name": "André Strässer",
+            "anv": "Andre Strasser",
+            "join": "",
+            "role": "Remix, Producer [Additional Production]",
+            "tracks": "",
+            "id": 556937,
+            "resource_url": "https://api.discogs.com/artists/556937"
+          },
+          {
+            "name": "Sharam Jey",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional Production]",
+            "tracks": "",
+            "id": 8982,
+            "resource_url": "https://api.discogs.com/artists/8982"
+          }
+        ],
+        "duration": "7:12"
+      },
+      {
+        "position": "8.1",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Binary Finary",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4334,
+            "resource_url": "https://api.discogs.com/artists/4334"
+          }
+        ],
+        "title": "1998 (Original Mix)",
+        "extraartists": [
+          {
+            "name": "Binary Finary",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 4334,
+            "resource_url": "https://api.discogs.com/artists/4334"
+          },
+          {
+            "name": "Nüw Idol",
+            "anv": "Nuw Idol",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 2902,
+            "resource_url": "https://api.discogs.com/artists/2902"
+          },
+          {
+            "name": "Binary Finary",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 4334,
+            "resource_url": "https://api.discogs.com/artists/4334"
+          }
+        ],
+        "duration": "4:50"
+      },
+      {
+        "position": "8.2",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Binary Finary",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4334,
+            "resource_url": "https://api.discogs.com/artists/4334"
+          }
+        ],
+        "title": "1998 (PVD Mix)",
+        "extraartists": [
+          {
+            "name": "Binary Finary",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 4334,
+            "resource_url": "https://api.discogs.com/artists/4334"
+          },
+          {
+            "name": "Nüw Idol",
+            "anv": "Nuw Idol",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 2902,
+            "resource_url": "https://api.discogs.com/artists/2902"
+          },
+          {
+            "name": "Paul van Dyk",
+            "anv": "PVD",
+            "join": "",
+            "role": "Remix",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          },
+          {
+            "name": "Binary Finary",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 4334,
+            "resource_url": "https://api.discogs.com/artists/4334"
+          }
+        ],
+        "duration": ""
+      },
+      {
+        "position": "9",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "title": "Words (For Love) (Original Mix)",
+        "extraartists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Composed By, Performer, Producer",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "5:25"
+      },
+      {
+        "position": "10",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Lost Tribe",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4335,
+            "resource_url": "https://api.discogs.com/artists/4335"
+          }
+        ],
+        "title": "Gamemaster (Original Mix)",
+        "extraartists": [
+          {
+            "name": "Red Jerry",
+            "anv": "",
+            "join": "",
+            "role": "Executive Producer",
+            "tracks": "",
+            "id": 1670,
+            "resource_url": "https://api.discogs.com/artists/1670"
+          },
+          {
+            "name": "Jay Relf",
+            "anv": "",
+            "join": "",
+            "role": "Programmed By [Additional Programming]",
+            "tracks": "",
+            "id": 63070,
+            "resource_url": "https://api.discogs.com/artists/63070"
+          },
+          {
+            "name": "Matt Darey",
+            "anv": "",
+            "join": "",
+            "role": "Written-By, Producer",
+            "tracks": "",
+            "id": 1688,
+            "resource_url": "https://api.discogs.com/artists/1688"
+          }
+        ],
+        "duration": "7:18"
+      },
+      {
+        "position": "11",
+        "type_": "track",
+        "artists": [
+          {
+            "name": "Transa",
+            "anv": "",
+            "join": "",
+            "role": "",
+            "tracks": "",
+            "id": 4106,
+            "resource_url": "https://api.discogs.com/artists/4106"
+          }
+        ],
+        "title": "Enervate (Original Mix)",
+        "extraartists": [
+          {
+            "name": "Transa",
+            "anv": "",
+            "join": "",
+            "role": "Written-By, Producer",
+            "tracks": "",
+            "id": 4106,
+            "resource_url": "https://api.discogs.com/artists/4106"
+          }
+        ],
+        "duration": "7:04"
+      }
+    ]
+  },
+  "tracks": [
+    "01-The_Dream_Traveler-Time-Original_Mix",
+    "02-Three_Drives_on_a_Vinyl-Greece_2000-Original_Mix",
+    "03-Tilt_vs_Paul_Van_Dyk-Rendezvous-Quadraphonic_Mix",
+    "04-Gus_Gus-Purple-Sasha_V_the_Light",
+    "05-Ascension-Someone-Slacker_Mix",
+    "06-Agnelli_and_Nelson-El_Nino-Matt_Darey_12in_Mix",
+    "07-Energy_52-Cafe_Del_Mar-Three_N_One_Remix",
+    "08-Binary_Finary-1998-Original_Mix",
+    "09-Paul_Van_Dyk-Words-Original_Mix",
+    "10-Lost_Tribe-Gamemaster-Original_Mix",
+    "11-Transa-Enervate-Original_Mix"
+  ]
+}

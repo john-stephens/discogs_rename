@@ -1,0 +1,157 @@
+{
+  "argv": {
+    "_": [],
+    "join-string": " ",
+    "joinString": " ",
+    "$0": "generate_data.js",
+    "url": "https://www.discogs.com/Chvrches-The-Bones-Of-What-You-Believe/release/6480272",
+    "file": [
+      "foo"
+    ]
+  },
+  "release": {
+    "artists": [
+      {
+        "name": "Chvrches",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 2953514,
+        "resource_url": "https://api.discogs.com/artists/2953514"
+      }
+    ],
+    "format_quantity": 1,
+    "tracklist": [
+      {
+        "position": "I",
+        "type_": "track",
+        "title": "The Mother We Share",
+        "duration": "3:12"
+      },
+      {
+        "position": "II",
+        "type_": "track",
+        "title": "We Sink",
+        "duration": "3:34"
+      },
+      {
+        "position": "III",
+        "type_": "track",
+        "title": "Gun",
+        "duration": "3:53"
+      },
+      {
+        "position": "IV",
+        "type_": "track",
+        "title": "Tether",
+        "extraartists": [
+          {
+            "name": "Chvrches",
+            "anv": "",
+            "join": "",
+            "role": "Mixed By",
+            "tracks": "",
+            "id": 2953514,
+            "resource_url": "https://api.discogs.com/artists/2953514"
+          }
+        ],
+        "duration": "4:46"
+      },
+      {
+        "position": "V",
+        "type_": "track",
+        "title": "Lies",
+        "duration": "3:41"
+      },
+      {
+        "position": "VI",
+        "type_": "track",
+        "title": "Under The Tide",
+        "duration": "4:32"
+      },
+      {
+        "position": "VII",
+        "type_": "track",
+        "title": "Recover",
+        "duration": "3:45"
+      },
+      {
+        "position": "VIII",
+        "type_": "track",
+        "title": "Night Sky",
+        "duration": "3:51"
+      },
+      {
+        "position": "IX",
+        "type_": "track",
+        "title": "Science/Visions",
+        "duration": "3:58"
+      },
+      {
+        "position": "X",
+        "type_": "track",
+        "title": "Lungs",
+        "duration": "3:02"
+      },
+      {
+        "position": "XI",
+        "type_": "track",
+        "title": "By The Throat",
+        "extraartists": [
+          {
+            "name": "Chvrches",
+            "anv": "",
+            "join": "",
+            "role": "Mixed By",
+            "tracks": "",
+            "id": 2953514,
+            "resource_url": "https://api.discogs.com/artists/2953514"
+          }
+        ],
+        "duration": "4:09"
+      },
+      {
+        "position": "XII",
+        "type_": "track",
+        "title": "You Caught The Light",
+        "duration": "5:36"
+      },
+      {
+        "position": "XIII",
+        "type_": "track",
+        "title": "Recover (Alucard Session)",
+        "duration": "4:12"
+      },
+      {
+        "position": "XIV",
+        "type_": "track",
+        "title": "The Mother We Share (Alucard Session)",
+        "duration": "3:18"
+      },
+      {
+        "position": "XV",
+        "type_": "track",
+        "title": "Gun (Alucard Session)",
+        "duration": "4:23"
+      }
+    ]
+  },
+  "tracks": [
+    "01-The_Mother_We_Share",
+    "02-We_Sink",
+    "03-Gun",
+    "04-Tether",
+    "05-Lies",
+    "06-Under_the_Tide",
+    "07-Recover",
+    "08-Night_Sky",
+    "09-Science_Visions",
+    "10-Lungs",
+    "11-By_the_Throat",
+    "12-You_Caught_the_Light",
+    "13-Recover-Alucard_Session",
+    "14-The_Mother_We_Share-Alucard_Session",
+    "15-Gun-Alucard_Session"
+  ]
+}

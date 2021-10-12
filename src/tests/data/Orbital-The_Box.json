@@ -1,0 +1,95 @@
+{
+  "argv": {
+    "_": [],
+    "join-string": " ",
+    "joinString": " ",
+    "$0": "generate_data.js",
+    "url": "https://www.discogs.com/Orbital-The-Box/release/870",
+    "file": [
+      "foo"
+    ]
+  },
+  "release": {
+    "artists": [
+      {
+        "name": "Orbital",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 1279,
+        "resource_url": "https://api.discogs.com/artists/1279"
+      }
+    ],
+    "format_quantity": 1,
+    "tracklist": [
+      {
+        "position": "",
+        "type_": "index",
+        "title": "The Box",
+        "duration": "",
+        "sub_tracks": [
+          {
+            "position": "1",
+            "type_": "track",
+            "title": "Radio Edit",
+            "duration": "4:13"
+          },
+          {
+            "position": "2",
+            "type_": "track",
+            "title": "Untitled",
+            "duration": "7:46"
+          },
+          {
+            "position": "3",
+            "type_": "track",
+            "title": "Untitled",
+            "duration": "8:40"
+          },
+          {
+            "position": "4",
+            "type_": "track",
+            "title": "Vocal Reprise",
+            "extraartists": [
+              {
+                "name": "Alison Goldfrapp",
+                "anv": "",
+                "join": "",
+                "role": "Vocals",
+                "tracks": "",
+                "id": 15589,
+                "resource_url": "https://api.discogs.com/artists/15589"
+              },
+              {
+                "name": "Grant Fulton",
+                "anv": "",
+                "join": "",
+                "role": "Vocals, Written-By [Vocals]",
+                "tracks": "",
+                "id": 72489,
+                "resource_url": "https://api.discogs.com/artists/72489"
+              },
+              {
+                "name": "Pete Mauder",
+                "anv": "Peter Mauder",
+                "join": "",
+                "role": "Written-By [Vocals]",
+                "tracks": "",
+                "id": 465293,
+                "resource_url": "https://api.discogs.com/artists/465293"
+              }
+            ],
+            "duration": "7:36"
+          }
+        ]
+      }
+    ]
+  },
+  "tracks": [
+    "01-The_Box",
+    "02-The_Box",
+    "03-The_Box",
+    "04-The_Box"
+  ]
+}
