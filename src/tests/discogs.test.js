@@ -32,6 +32,12 @@ describe('discogs', () => {
 
       expect(getReleaseIdFromUrl(url)).toBe(false);
     });
+
+    test('returns release id for new url format', () => {
+      const url = 'https://www.discogs.com/release/123456-Foo-Bar';
+
+      expect(getReleaseIdFromUrl(url)).toEqual('123456');
+    });
   });
 
   describe('getDiscogsRelease', () => {

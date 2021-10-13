@@ -4,7 +4,7 @@ const { version } = require('../package.json');
 
 const AGENT = `DiscogsRename/${version}`;
 const DISCOGS_HOST = 'discogs.com';
-const RELEASE_PATH_REGEX = /\/release\/(?<releaseId>[0-9]+)$/;
+const RELEASE_PATH_REGEX = /\/release\/(?<releaseId>[0-9]+)/;
 
 /**
  * Validate the provided Discogs release URL.
