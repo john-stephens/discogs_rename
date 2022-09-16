@@ -1,0 +1,674 @@
+{
+  "argv": {
+    "_": [],
+    "disc": "CD",
+    "join-string": " ",
+    "joinString": " ",
+    "$0": "generate_data.js",
+    "url": "https://www.discogs.com/release/120026-Paul-van-Dyk-Global",
+    "file": [
+      "foo"
+    ]
+  },
+  "release": {
+    "artists": [
+      {
+        "name": "Paul van Dyk",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 1049,
+        "resource_url": "https://api.discogs.com/artists/1049"
+      }
+    ],
+    "format_quantity": 2,
+    "tracklist": [
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "Global Mix CD",
+        "duration": "74:30"
+      },
+      {
+        "position": "CD-1",
+        "type_": "track",
+        "title": "We Are Alive",
+        "extraartists": [
+          {
+            "name": "Billy Mann",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 129197,
+            "resource_url": "https://api.discogs.com/artists/129197"
+          },
+          {
+            "name": "Jennifer Brown",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 126996,
+            "resource_url": "https://api.discogs.com/artists/126996"
+          }
+        ],
+        "duration": "3:19"
+      },
+      {
+        "position": "CD-2",
+        "type_": "track",
+        "title": "Seven Ways",
+        "extraartists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional]",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "5:12"
+      },
+      {
+        "position": "CD-3",
+        "type_": "track",
+        "title": "Forbidden Fruit",
+        "extraartists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional]",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "6:16"
+      },
+      {
+        "position": "CD-4",
+        "type_": "track",
+        "title": "Beautiful Place",
+        "extraartists": [
+          {
+            "name": "Jens Wojnar",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 153282,
+            "resource_url": "https://api.discogs.com/artists/153282"
+          },
+          {
+            "name": "Natascha van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 22953,
+            "resource_url": "https://api.discogs.com/artists/22953"
+          },
+          {
+            "name": "Johnny Klimek",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 3836,
+            "resource_url": "https://api.discogs.com/artists/3836"
+          }
+        ],
+        "duration": "6:02"
+      },
+      {
+        "position": "CD-5",
+        "type_": "track",
+        "title": "Another Way",
+        "duration": "6:20"
+      },
+      {
+        "position": "CD-6",
+        "type_": "track",
+        "title": "Tell Me Why",
+        "extraartists": [
+          {
+            "name": "Saint Etienne",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 2807,
+            "resource_url": "https://api.discogs.com/artists/2807"
+          },
+          {
+            "name": "Bob Stanley",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 438155,
+            "resource_url": "https://api.discogs.com/artists/438155"
+          },
+          {
+            "name": "Pete Wiggs",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 438192,
+            "resource_url": "https://api.discogs.com/artists/438192"
+          },
+          {
+            "name": "Sarah Cracknell",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 36147,
+            "resource_url": "https://api.discogs.com/artists/36147"
+          }
+        ],
+        "duration": "5:48"
+      },
+      {
+        "position": "CD-7",
+        "type_": "track",
+        "title": "Step Right On",
+        "extraartists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional]",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "5:22"
+      },
+      {
+        "position": "CD-8",
+        "type_": "track",
+        "title": "Words",
+        "duration": "5:49"
+      },
+      {
+        "position": "CD-9",
+        "type_": "track",
+        "title": "Together We Will Conquer",
+        "extraartists": [
+          {
+            "name": "Natascha van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 22953,
+            "resource_url": "https://api.discogs.com/artists/22953"
+          }
+        ],
+        "duration": "7:17"
+      },
+      {
+        "position": "CD-10",
+        "type_": "track",
+        "title": "A Magical Moment",
+        "extraartists": [
+          {
+            "name": "Johnny Klimek",
+            "anv": "",
+            "join": "",
+            "role": "Co-producer, Engineer",
+            "tracks": "",
+            "id": 3836,
+            "resource_url": "https://api.discogs.com/artists/3836"
+          },
+          {
+            "name": "Natascha van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 22953,
+            "resource_url": "https://api.discogs.com/artists/22953"
+          }
+        ],
+        "duration": "4:38"
+      },
+      {
+        "position": "CD-11",
+        "type_": "track",
+        "title": "For An Angel",
+        "duration": "7:17"
+      },
+      {
+        "position": "CD-12",
+        "type_": "track",
+        "title": "Animacion",
+        "duration": "7:14"
+      },
+      {
+        "position": "CD-13",
+        "type_": "track",
+        "title": "My World",
+        "duration": "3:50"
+      },
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "Main Feature",
+        "duration": "76:15"
+      },
+      {
+        "position": "DVD-1.01",
+        "type_": "track",
+        "title": "We Are Alive",
+        "extraartists": [
+          {
+            "name": "Billy Mann",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 129197,
+            "resource_url": "https://api.discogs.com/artists/129197"
+          },
+          {
+            "name": "Jennifer Brown",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 126996,
+            "resource_url": "https://api.discogs.com/artists/126996"
+          }
+        ],
+        "duration": "4:00"
+      },
+      {
+        "position": "DVD-1.02",
+        "type_": "track",
+        "title": "Seven Ways",
+        "extraartists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional]",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "4:59"
+      },
+      {
+        "position": "DVD-1.03",
+        "type_": "track",
+        "title": "Forbidden Fruit",
+        "extraartists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional]",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "6:26"
+      },
+      {
+        "position": "DVD-1.04",
+        "type_": "track",
+        "title": "Beautiful Place",
+        "extraartists": [
+          {
+            "name": "Jens Wojnar",
+            "anv": "",
+            "join": "",
+            "role": "Producer",
+            "tracks": "",
+            "id": 153282,
+            "resource_url": "https://api.discogs.com/artists/153282"
+          },
+          {
+            "name": "Natascha van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 22953,
+            "resource_url": "https://api.discogs.com/artists/22953"
+          },
+          {
+            "name": "Johnny Klimek",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 3836,
+            "resource_url": "https://api.discogs.com/artists/3836"
+          }
+        ],
+        "duration": "5:38"
+      },
+      {
+        "position": "DVD-1.05",
+        "type_": "track",
+        "title": "Another Way",
+        "duration": "6:33"
+      },
+      {
+        "position": "DVD-1.06",
+        "type_": "track",
+        "title": "Tell Me Why",
+        "extraartists": [
+          {
+            "name": "Saint Etienne",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 2807,
+            "resource_url": "https://api.discogs.com/artists/2807"
+          },
+          {
+            "name": "Bob Stanley",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 438155,
+            "resource_url": "https://api.discogs.com/artists/438155"
+          },
+          {
+            "name": "Pete Wiggs",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 438192,
+            "resource_url": "https://api.discogs.com/artists/438192"
+          },
+          {
+            "name": "Sarah Cracknell",
+            "anv": "",
+            "join": "",
+            "role": "Written-By",
+            "tracks": "",
+            "id": 36147,
+            "resource_url": "https://api.discogs.com/artists/36147"
+          }
+        ],
+        "duration": "6:16"
+      },
+      {
+        "position": "DVD-1.07",
+        "type_": "track",
+        "title": "Step Right On",
+        "extraartists": [
+          {
+            "name": "Paul van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Remix, Producer [Additional]",
+            "tracks": "",
+            "id": 1049,
+            "resource_url": "https://api.discogs.com/artists/1049"
+          }
+        ],
+        "duration": "5:01"
+      },
+      {
+        "position": "DVD-1.08",
+        "type_": "track",
+        "title": "Words",
+        "duration": "5:42"
+      },
+      {
+        "position": "DVD-1.09",
+        "type_": "track",
+        "title": "Together We Will Conquer",
+        "extraartists": [
+          {
+            "name": "Natascha van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 22953,
+            "resource_url": "https://api.discogs.com/artists/22953"
+          }
+        ],
+        "duration": "7:38"
+      },
+      {
+        "position": "DVD-1.10",
+        "type_": "track",
+        "title": "A Magical Moment",
+        "extraartists": [
+          {
+            "name": "Johnny Klimek",
+            "anv": "",
+            "join": "",
+            "role": "Co-producer, Engineer",
+            "tracks": "",
+            "id": 3836,
+            "resource_url": "https://api.discogs.com/artists/3836"
+          },
+          {
+            "name": "Natascha van Dyk",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 22953,
+            "resource_url": "https://api.discogs.com/artists/22953"
+          }
+        ],
+        "duration": "4:27"
+      },
+      {
+        "position": "DVD-1.11",
+        "type_": "track",
+        "title": "For An Angel",
+        "duration": "7:28"
+      },
+      {
+        "position": "DVD-1.12",
+        "type_": "track",
+        "title": "Animacion",
+        "duration": "7:02"
+      },
+      {
+        "position": "DVD-1.13",
+        "type_": "track",
+        "title": "My World",
+        "duration": "3:36"
+      },
+      {
+        "position": "DVD-1.14",
+        "type_": "track",
+        "title": "Credits",
+        "duration": "1:04"
+      },
+      {
+        "position": "DVD-1.15",
+        "type_": "track",
+        "title": "Closing",
+        "duration": "0:18"
+      },
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "Interview",
+        "duration": "5:45"
+      },
+      {
+        "position": "DVD-2.01",
+        "type_": "track",
+        "title": "Where Was Your First DJ Gig?",
+        "duration": "0:08"
+      },
+      {
+        "position": "DVD-2.02",
+        "type_": "track",
+        "title": "How Did You Get Your First Job As A DJ?",
+        "duration": "0:45"
+      },
+      {
+        "position": "DVD-2.03",
+        "type_": "track",
+        "title": "And The First Gig Was Like...?",
+        "duration": "0:37"
+      },
+      {
+        "position": "DVD-2.04",
+        "type_": "track",
+        "title": "How Did Your International Career Develop?",
+        "duration": "1:12"
+      },
+      {
+        "position": "DVD-2.05",
+        "type_": "track",
+        "title": "Tell Us About Your Label Vandit Records",
+        "duration": "0:52"
+      },
+      {
+        "position": "DVD-2.06",
+        "type_": "track",
+        "title": "The Weekly Radio Show \"Soundgarden\"...",
+        "duration": "0:34"
+      },
+      {
+        "position": "DVD-2.07",
+        "type_": "track",
+        "title": "Statement To Drugs",
+        "duration": "0:39"
+      },
+      {
+        "position": "DVD-2.08",
+        "type_": "track",
+        "title": "Where Do You See The Differences Of The Worldwide Clubscene?",
+        "duration": "0:55"
+      },
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "Music Videos",
+        "duration": "18:33"
+      },
+      {
+        "position": "DVD-3.01",
+        "type_": "track",
+        "title": "Another Way",
+        "duration": "3:25"
+      },
+      {
+        "position": "DVD-3.02",
+        "type_": "track",
+        "title": "For An Angel",
+        "duration": "3:50"
+      },
+      {
+        "position": "DVD-3.03",
+        "type_": "track",
+        "title": "Forbidden Fruit",
+        "duration": "3:44"
+      },
+      {
+        "position": "DVD-3.04",
+        "type_": "track",
+        "title": "Tell Me Why",
+        "extraartists": [
+          {
+            "name": "Saint Etienne",
+            "anv": "",
+            "join": "",
+            "role": "Featuring",
+            "tracks": "",
+            "id": 2807,
+            "resource_url": "https://api.discogs.com/artists/2807"
+          }
+        ],
+        "duration": "3:46"
+      },
+      {
+        "position": "DVD-3.05",
+        "type_": "track",
+        "title": "We Are Alive",
+        "extraartists": [
+          {
+            "name": "Jennifer Brown",
+            "anv": "",
+            "join": "",
+            "role": "Vocals",
+            "tracks": "",
+            "id": 126996,
+            "resource_url": "https://api.discogs.com/artists/126996"
+          }
+        ],
+        "duration": "3:48"
+      },
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "Promotional Clips",
+        "duration": "7:15"
+      },
+      {
+        "position": "DVD-4.01",
+        "type_": "track",
+        "title": "Zurdo (Movie Trailer)",
+        "duration": "1:48"
+      },
+      {
+        "position": "DVD-4.02",
+        "type_": "track",
+        "title": "Dance Of Death (Anti-Drug Commercial)",
+        "duration": "0:45"
+      },
+      {
+        "position": "DVD-4.03",
+        "type_": "track",
+        "title": "One Perfect Day (Movie Trailer)",
+        "duration": "4:42"
+      },
+      {
+        "position": "",
+        "type_": "heading",
+        "title": "-",
+        "duration": ""
+      },
+      {
+        "position": "DVD-5",
+        "type_": "track",
+        "title": "Statements (By Fans)",
+        "duration": "6:29"
+      }
+    ]
+  },
+  "tracks": [
+    "01-We_Are_Alive",
+    "02-Seven_Ways",
+    "03-Forbidden_Fruit",
+    "04-Beautiful_Place",
+    "05-Another_Way",
+    "06-Tell_Me_Why",
+    "07-Step_Right_On",
+    "08-Words",
+    "09-Together_We_Will_Conquer",
+    "10-A_Magical_Moment",
+    "11-For_an_Angel",
+    "12-Animacion",
+    "13-My_World"
+  ]
+}

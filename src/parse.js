@@ -1,7 +1,7 @@
 const { deromanize } = require('romans');
 const { isReleaseMultiDisc } = require('./utils');
 
-const POSITION_MULTI_REGEX = /^(?<disc>[0-9]+[-.])?(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+|[a-z]+)?$/;
+const POSITION_MULTI_REGEX = /^(?<disc>[a-zA-Z0-9]+[-.])?(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+|[a-z]+)?$/;
 const POSITION_SINGLE_REGEX = /^(?<side>[AB])?(?<track>[0-9]+)(?<part>\.[0-9]+|[a-z]+)?$/;
 
 /**
